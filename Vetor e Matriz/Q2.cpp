@@ -18,13 +18,13 @@ int main(){
             par[i] = 1;
         }
      else if (calc > 0){
-           v2[i]=v[i];
-           impar[i]=1;
+           v2[i] = v[i];
+           impar[i] = 1;
         }  
     }
     for ( i = 0; i < 10; i++){
        if (impar[i] == 1){
-       printf("Numero impar eh %d na posicao %d\n",v2[i],i);
+       printf("Numero impar eh %d na posicao %d\n",v2[i], i);
      }  
     }
     for ( i = 0; i < 10; i++){
