@@ -1,6 +1,6 @@
-/*/em que p = 3.1414592 valor do raio r deve ser passado por par‚metro.
-Escreva uma funÁ„o que receba o peso (quilos) e a altura (metros) de uma pessoa. Calcule
-e retorne o IMC (Õndice de Massa Corporal) dessa pessoa:*/
+/*/em que p = 3.1414592 valor do raio r deve ser passado por par√¢metro.
+Escreva uma fun√ß√£o que receba o peso (quilos) e a altura (metros) de uma pessoa. Calcule
+e retorne o IMC (√çndice de Massa Corporal) dessa pessoa:*/
 
 
 #include <stdio.h>
@@ -18,10 +18,10 @@ printf("Volume: %.2f", imc);
 int main (){
     float altura, peso;
 
-    printf("Me forneca a altura: ");
+    printf("DIgite a altura: ");
     scanf("%f", &altura);
 
-    printf("Me forneca a peso: ");
+    printf("Digite o peso: ");
     scanf("%f", &peso);
 
     CalculaIMC( peso, altura );
