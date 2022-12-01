@@ -1,4 +1,4 @@
-/*Escreva uma funÁ„o para o c·lculo do volume de uma esfera*/
+/*Escreva uma fun√ß√£o para o c√°lculo do volume de uma esfera*/
 
 #include <stdio.h>
 #include <math.h>
@@ -13,7 +13,7 @@ float volume;
 int main (){
     float raio;
     
-    printf("Me forneca o raio:");
+    printf("Digite o raio:");
     scanf("%f",&raio);
     volume(raio);
 }
